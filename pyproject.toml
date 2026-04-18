@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shrek_units"
+version = "0.1.0"
+description = "Ogre-based unit conversions. Some might say it has layers."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "GPL-3.0-or-later"
+authors = [{ name = "Zofia Jedlinska", email = "zjedlinska@student.agh.edu.pl" }]
+dependencies = ["pint>=0.23"]
+
+[project.urls]
+Homepage = "https://github.com/zocha-jpg/rse-proj1"
+Issues = "https://github.com/zocha-jpg/rse-proj1/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.optional-dependencies]
+dev = ["pytest"]

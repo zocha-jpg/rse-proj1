@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/shrek_units/__init__.py
+src/shrek_units/core.py
+src/shrek_units.egg-info/PKG-INFO
+src/shrek_units.egg-info/SOURCES.txt
+src/shrek_units.egg-info/dependency_links.txt
+src/shrek_units.egg-info/requires.txt
+src/shrek_units.egg-info/top_level.txt
+tests/test_shreks.py

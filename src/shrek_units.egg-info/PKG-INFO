@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: shrek_units
+Version: 0.1.0
+Summary: Ogre-based unit conversions. Some might say it has layers.
+Author-email: Zofia Jedlinska <zjedlinska@student.agh.edu.pl>
+License-Expression: GPL-3.0-or-later
+Project-URL: Homepage, https://github.com/zocha-jpg/rse-proj1
+Project-URL: Issues, https://github.com/zocha-jpg/rse-proj1/issues
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pint>=0.23
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Dynamic: license-file
+
+# shrek_units
+
+Ogre-based unit conversions for Python. Based on Shrek's height as shown in Shrek 2 videogame character bio being 8ft tall - roughly 2.43 meters.
