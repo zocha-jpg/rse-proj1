@@ -1,6 +1,10 @@
 # shrek_units
 
-Ogre-based unit conversion library for Python. Based on Shrek's height as shown in Shrek 2 videogame character bio being 8ft tall - roughly 2.43 meters.
+Ogre-based unit conversions. This library defines the _shrek_ (length) so you can finally compute how many shreks tall Mount Everest is.
+
+One _shrek_ stands at 2.43 m (8 ft) - based on the information gathered from Shrek's character bio in the _Shrek 2_ videogame. There are several sources defining Shrek's height anywhere between 7 and 8 feet. For example, there's a size chart posted somewhere on X in 2022, stating that he is actually 7 ft tall. However, I've decided to go with the information from this 2004 bio. (it's an honour to have been born in the same year as this masterpiece)
+
+(more _Fairytale_ friends units will probably be available in the future)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zocha-jpg/rse-proj1/blob/main/examples/demo.ipynb)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zocha-jpg/rse-proj1/HEAD?labpath=examples/demo.ipynb)
