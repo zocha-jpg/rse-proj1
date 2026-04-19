@@ -2,3 +2,8 @@ pint>=0.23
 
 [dev]
 pytest
+
+[docs]
+sphinx>=7
+furo
+myst-parser

@@ -12,6 +12,10 @@ License-File: LICENSE
 Requires-Dist: pint>=0.23
 Provides-Extra: dev
 Requires-Dist: pytest; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: sphinx>=7; extra == "docs"
+Requires-Dist: furo; extra == "docs"
+Requires-Dist: myst-parser; extra == "docs"
 Dynamic: license-file
 
 # shrek_units
